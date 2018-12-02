@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    .page-contaniner{
+        margin: 200px auto ;
+        text-align: center;
+        background: #f40;
+        height: 300px;
+        width: 200px;
+    }
+   
+    .error-tip{
+       display: none;
+    }
+    .panel{
+        height: 40px;
+    }
+    .o{
+        padding-top: 50px;
+    }
+    </style>
+    <script src="jq.js"></script>
+    <script src="login.js"></script>
+</head>
+<body>
+    <div class="page-contaniner">
+        <div class="panel o">
+            <input type="text" class="mobile btn"  name="mobile" maxlength="11" placeholder="请输入11位手机号">
+            <p class="error-tip">111</p>
+        </div>
+        <div class="panel">
+                <input type="text" class="pwd btn"  name="pwd" placeholder="密码">
+                <p class="error-tip">2222</p>
+        </div>
+        <div class="panel">
+            <button class="login">立即登录</button>
+        </div>
+        <div class="msg-tip">
+            <p>请输入正确的信息</p>
+        </div>
+
+
+    </div>
+</body>
+</html>
