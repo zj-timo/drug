@@ -1,0 +1,35 @@
+{
+  "no-mock":true,
+  "code": 200,
+  "message": "请求成功",
+  "result": [
+    {
+      "id": "csjg-index",
+      "name": "首页"
+    },
+    {
+      "id": "csjg",
+      "name": "综合监管业务管理系统"
+    },
+    {
+      "id": "csjg-rating",
+      "name": "专业市场信用分级监管业务系统"
+    },
+    {
+      "id": "csjg-drug",
+      "name": "药械监管业务系统"
+    },
+    {
+      "id": "csjg-special",
+      "name": "特种设备监管业务系统"
+    },
+    {
+      "id": "csjg-quality",
+      "name": "产 (商) 品质量监管系统"
+    },
+    {
+      "id": "csjg-wzjy",
+      "name": "无照经营管理业务系统"
+    }
+  ]
+}

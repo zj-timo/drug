@@ -1,0 +1,56 @@
+
+    
+%control-group{
+    @extend .row;
+    margin-bottom: 12px;
+
+}
+
+.control-group{
+    @extend %control-group;
+    // margin-bottom: 15px;
+}
+.control-group-auto{
+    @extend %control-group;
+    @extend .row-auto;
+}
+
+
+// form box
+.form-box-center {
+    padding-right: 100px;
+    min-width: 430px;
+    // max-width: 900px;
+    // margin: auto;
+}
+
+.form-center-single {
+    min-width: 430px;
+    max-width: 600px;
+}
+
+
+.lang-en {
+    .form-box-center {
+        max-width: 800px;
+    }
+}
+// 必填*
+.required{
+    color: red;
+    vertical-align: middle;
+    padding-right: 8px;
+}
+
+@media screen and (max-width: 1300px) { /*当屏幕尺寸小于600px时，应用下面的CSS样式*/
+  .form-ver{
+  	.deposit-right-auto{
+		max-width:550px;
+    	min-width:440px;
+	}
+  }
+}
+
+
+
+

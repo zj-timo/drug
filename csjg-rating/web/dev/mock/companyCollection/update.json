@@ -1,0 +1,36 @@
+{	
+	"no-mock":true,
+	"code": 200,
+	"message": "更新成功",
+	"result": {
+		"pk": "5daa3aa7-d009-4d5b-8f9f-77a9ef70ea3a",
+		"createdBy": "test1",
+		"deleteMark": null,
+		"createdTime": "2018-01-19 16:11:42",
+		"updatedBy": null,
+		"updatedTime": "2018-01-19 16:11:42",
+		"companyPk": "1111",
+		"contacts": "333333234",
+		"contactNumber": "是不是",
+		"administrativeDivision1": "5",
+		"administrativeDivision2": null,
+		"administrativeDivision3": null,
+		"businessScope": "null2222222",
+		"companyLabel": "7,8,9,10,11,12",
+		"companyLabelName": "互联网,大数据",
+		"remark": "首页2222222",
+		"collectionor": null,
+		"collectionDate": null,
+		"file": [{
+			"pk": "f49d1577-fc74-4c7a-92e9-603238dd0681",
+			"createdBy": null,
+			"deleteMark": null,
+			"createdTime": "2018-01-19 16:11:42",
+			"updatedBy": null,
+			"updatedTime": "2018-01-19 16:11:42",
+			"companyPk": "1111",
+			"fileName": "12312312.jpg",
+			"fileUrl": "/images/fd39821a-2816-48c6-b61c-28f3a0cb282f.jpg"
+		}]
+	
+}

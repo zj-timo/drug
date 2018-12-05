@@ -1,0 +1,37 @@
+{
+  "no-mock":true,
+  "code": 200,
+  "message": "请求成功",
+  "result": {
+    "pk": "1",
+    "plannedNumber": "1",
+    "inspectionType": "3",
+    "startTime": "2018-05-03",
+    "endTime": "2018-05-03",
+    "name": "测试数据a",
+    "creditCode": "2",
+    "industryArea": "138",
+    "annualPlan": "2018",
+    "state": "2",
+    "enforcementLeader": "test1",
+    "isProject": "2",
+    "reasons": "",
+    "updatedTime": "2018-05-03 09:27:22",
+    "entourage": "2,4",
+    "legalRepresentative": "",
+    "companyLabel": "",
+    "fileUrl": "",
+    "createdBy": "11",
+    "qualityInspectionFile":[{
+      "createdBy":"11",
+      "createdTime":"2018-05-22",
+      "deleteMark":"",
+      "fileName":"11",
+      "fileUrl":"/img/11.png",
+      "pk":"111",
+      "qualityPk":"",
+      "updateBy":"",
+      "updatedTime":""
+    }]
+  }
+}

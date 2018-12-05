@@ -1,0 +1,44 @@
+{
+  "no-mock":true,
+  "code": 200,
+  "message": "请求成功",
+  "result": [
+    {
+      "name": "年度检查对象",
+      "id":"inspect-obj",
+      "open": false,
+      "subMenus":[
+        { "name": "检查对象管理", "id":"inspect-obj-index", "open": false, "url": "inspect-obj-index", "router_type":"inspect-obj"}
+      ]
+    },
+    {
+      "name": "检查计划管理",
+      "id":"inspect-plan",
+      "open": false,
+      "subMenus":[
+        { "name": "质量监督检查计划", "id":"inspect-plan-index", "open": false, "url": "inspect-plan-index", "router_type":"inspect-plan"}
+      ]
+    },
+    {
+      "name": "任务管理",
+      "id":"inspect-task",
+      "open": false,
+      "subMenus":[
+        { "name": "任务受理", "id":"inspect-task-index", "open": false, "url": "inspect-task-index", "router_type":"inspect-task"},
+        { "name": "检查信息查询", "id":"inspect-info-index", "open": false, "url": "inspect-info-index", "router_type":"inspect-info"},
+        { "name": "专项监管信息管理", "id":"inspect-supervise-index", "open": false, "url": "inspect-supervise-index", "router_type":"inspect-supervise"},
+        { "name": "整改信息管理", "id":"inspect-reform-index", "open": false, "url": "inspect-reform-index", "router_type":"inspect-reform"}
+      ]
+    },
+    {
+      "name": "统计分析",
+      "id":"statistical-analysis",
+      "open": false,
+      "subMenus":[
+        { "name": "质量认证", "id":"stat-quality-index", "open": false, "url": "stat-quality-index", "router_type":"stat-quality"},
+        { "name": "3C认证", "id":"stat-force-index", "open": false, "url": "stat-force-index", "router_type":"stat-force"},
+        { "name": "工业产品生产许可证", "id":"stat-prod-index", "open": false, "url": "stat-prod-index", "router_type":"stat-prod"}
+      ]
+    }
+  ]
+}

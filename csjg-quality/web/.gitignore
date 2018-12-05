@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+.idea
+dist/
+dev/js/config/proxy-mock.js
+.editorconfig
+*.sublime-project
+*.sublime-workspace
+node_modules
+npm-debug.log

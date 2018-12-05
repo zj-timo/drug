@@ -1,0 +1,58 @@
+
+.pageGroup {
+	box-sizing: border-box;
+	width: 100%;
+	display: table;
+	border-spacing: 0;
+	table-layout: auto
+}
+
+.page {
+	display: inline-block;
+}
+
+.pageGroup-statistical {
+	display: inline-block;
+	padding-right: 20px;
+}
+
+.pageGroup li, .page li {
+	display: inline-block;
+	// width: 27px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	// border-radius: 4px;
+	color: #000;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	padding: 0 3px;
+}
+.pageGroup li:hover, .page li:hover {
+	background: #f5f5f5;
+	color: #000
+}
+.page .active, .pageGroup .active, .pageGroup li.active:hover, .page li.active:hover {
+	background: #155eaa;
+	color: #fff
+}
+.page .disabled, .pageGroup .disabled {
+	color: #999;
+	cursor: not-allowed
+}
+.page .disabled:hover, .pageGroup .disabled:hover {
+	background: transparent;
+	color: #999
+}
+.pageGroup {
+	color: #999;
+	line-height: 36px
+}
+
+.pageGroup-statistical span {
+	color: #000;
+	padding: 0 5px
+}

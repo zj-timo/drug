@@ -1,0 +1,12 @@
+{
+  "no-mock":true,
+  "code": 200,
+  "message": "获取记录成功",
+  "result": [{
+    "id": "zhhudabeng", 
+    "name": "朱大犇"
+  },{
+    "id": "zhuben", 
+    "name": "朱犇"
+  }]
+}

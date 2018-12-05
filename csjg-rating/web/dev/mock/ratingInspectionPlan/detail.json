@@ -1,0 +1,19 @@
+{
+  "no-mock":true,
+  "code": 200,
+  "message": "请求成功",
+  "result": {
+    "pk": 1,
+    "plannedNumber": "xy20171225001",
+    "startTime": "2017-11-11",
+    "endTime": "2017-12-11",
+    "annualPlan": "2017",
+    "name": "昆山市明峰园林景观绿化工程有限公司",
+    "creditCode": "3201523564561112",
+    "industryArea": "136",
+    "supervisionMode": "56",
+    "enforcementLeader": "组长A",
+    "state": "1",
+    "reasons": "期数不正常"
+  }
+}

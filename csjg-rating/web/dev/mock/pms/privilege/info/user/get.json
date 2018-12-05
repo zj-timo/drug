@@ -1,0 +1,24 @@
+{
+  "no-mock":true,
+  "code": 200,
+  "message": "请求成功",
+  "result": {
+  	"account": "test1",
+		"companyName": "常熟市市场管理局",
+		"companyPk": "6fbbe5681bf1435d970554c6661775e9",
+		"createdBy": null,
+		"createdTime":1512458197754,
+		"extendAtrr": {},
+		"groupName": "经济技术开发区分局",
+		"groupPk": "131",
+		"isAdmin": false,
+		"mail": "set@qq.com",
+		"name": "测试1号",
+		"pk": "8d85f1bbf7434f748983d0fc9b8762d2",
+		"pwd": "679a112c121c8d4c9ea41dac1bc0ec38",
+		"remark": "cd",
+		"status": true,
+		"updatedBy": null,
+		"updatedTime": 1515668328332
+  }
+}

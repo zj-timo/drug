@@ -1,0 +1,86 @@
+.index-system {
+	padding: 0 15px;
+
+	.m-f-12 {
+		margin: 0 -12px;
+	}
+
+	.count-box {
+		border-spacing: 12px 0;
+	  margin: 15px 0 10px 0;
+	  color: #fff;
+	  font-size: 14px;
+	}
+
+	.count-num {
+		font-size: 42px;
+	}
+
+	.count-first {
+		height: 125px;
+		padding: 33px 0 28px 0;
+		text-align: center;
+		background: #dd6362;
+		box-shadow: 6px 6px 6px rgba(0,0,0,0.3);
+	}
+
+	.count-second {
+		height: 125px;
+		padding: 33px 0 28px 0;
+		text-align: center;
+		background: #4eb4ad;
+		box-shadow: 6px 6px 6px rgba(0,0,0,0.3);
+	}
+
+	.count-third {
+		height: 125px;
+		padding: 33px 0 28px 0;
+		text-align: center;
+		background: #8a7aa7;
+		box-shadow: 6px 6px 6px rgba(0,0,0,0.3);
+	}
+
+	.count-fourth {
+		height: 125px;
+		padding: 33px 0 28px 0;
+		text-align: center;
+		background: #f6c83f;
+		box-shadow: 6px 6px 6px rgba(0,0,0,0.3);
+	}
+
+	.import-loading {
+	  text-align: center;
+	  padding: 20px;
+	  font-size: 20px;
+	}
+
+	@mixin messageIcon{
+		margin-right: 8px;
+		display: inline-block;
+		font: normal normal normal 14px/1 FontAwesome;
+		font-size: inherit;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	@keyframes fa-spin {
+	  0% {
+	    -webkit-transform: rotate(0deg);
+	    transform: rotate(0deg); }
+	  100% {
+	    -webkit-transform: rotate(359deg);
+	    transform: rotate(359deg); } 
+	}
+
+	.loading-icon {
+	  @include messageIcon;
+	  color: #339eff !important;
+	  font-family: "iconfont" !important;
+	  -webkit-animation: fa-spin 2s infinite linear;
+	  animation: fa-spin 2s infinite linear;
+	  &:before {
+		  content: "\e62f"
+	  }
+	}
+}

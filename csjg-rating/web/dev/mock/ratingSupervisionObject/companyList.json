@@ -1,0 +1,61 @@
+{
+  "no-mock":true,
+  "code": 200,
+  "message": "请求成功",
+  "result": {
+    "pageNo": 1,
+    "pageSize": 10,
+    "results": [{
+      "pk": "111",
+      "name": "常熟市兴隆中学1",
+      "creditCode": "3201523564561112",
+      "industryOwned": "1",
+      "industryArea": "131",
+      "address": "虞山镇昭文路296号"
+    },{
+      "pk": "222",
+      "name": "苏州良鑫自动化科技有限公司",
+      "creditCode": "546346",
+      "industryOwned": "2",
+      "industryArea": "132",
+      "address": "苏惠路297号"
+    },{
+      "pk": "333",
+      "name": "苏州科力西电力安装工程有限公司",
+      "creditCode": "659",
+      "industryOwned": "3",
+      "industryArea": "133",
+      "address": "星湖街298号"
+    },{
+      "pk": "444",
+      "name": "苏州科力西电力安装工程有限公司",
+      "creditCode": "9793",
+      "industryOwned": "4",
+      "industryArea": "134",
+      "address": "虞山镇昭文路296号"
+    },{
+      "pk": "555",
+      "name": "苏州耀晨新材料有限公司",
+      "creditCode": "3201523564561113",
+      "industryOwned": "5",
+      "industryArea": "135",
+      "address": "苏惠路297号"
+    },{
+      "pk": "666",
+      "name": "苏州韦通新能源科技有限公司",
+      "creditCode": "3201523564561115",
+      "industryOwned": "6",
+      "industryArea": "136",
+      "address": "星湖街298号"
+    },{
+      "pk": "777",
+      "name": "苏州韦通新能源科技有限公司",
+      "creditCode": "3201523564561119",
+      "industryOwned": "1",
+      "industryArea": "137",
+      "address": "虞山镇昭文路296号"
+    }],
+    "totalPage": 1,
+    "totalRecord": 7
+  }
+}

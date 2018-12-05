@@ -1,0 +1,86 @@
+//A4打印内容
+.print-wrap{
+	width: 210mm;
+  margin: 0 auto;
+  /*display:none;*/
+
+  .print-p{
+  	margin-left: 10px;
+  }
+  .form-body{
+    font-family: 宋体;
+		font-size: 12pt;
+	}
+	.form-body table{
+		width: 100%;
+		text-align: center;
+		border: 1px solid #e0e0e0;
+		/*margin-top: 20px;*/
+	}
+	.form-body table td{
+		padding:7px 2px;
+		border: 1px solid #333;
+		line-height: 17.2px;
+	}
+	.form-body table.td-h td{
+		height: 78px;
+	}
+	.form-body h2{
+		font-size: 20.6pt;
+	    font-weight: 600;
+	    text-align: center;
+	    /*margin:25px 0;*/
+	}
+	.min-h-110{min-height: 110px;}
+	.min-h-80{min-height: 80px;}
+	table p{padding:3px 0;}
+	.print-num{text-decoration: underline;}
+	.w-50 {
+	    transform: translateY(-2px);
+	    padding-top: 6px;
+	    width: 50px;
+	}
+}
+.print-wrap-297{
+	width: 297mm;
+	margin: 0 auto;
+	input[disabled]{
+		opacity: 1;
+	}
+  .print-p{
+  	margin-left: 10px;
+  }
+  .form-body{
+    font-family: 宋体;
+		font-size: 14px;
+	}
+	.form-body table{
+		width: 100%;
+		text-align: center;
+		border: 1px solid #e0e0e0;
+		/*margin-top: 20px;*/
+	}
+	.form-body table td{
+		padding:4px;
+		border: 1px solid #333;
+		line-height: 16px;
+	}
+	.form-body table.td-h td{
+		height: 78px;
+	}
+	.form-body h2{
+		font-size: 20.6pt;
+	    font-weight: 600;
+	    text-align: center;
+	    /*margin:25px 0;*/
+	}
+	.min-h-50{
+		min-height: 50px;
+		text-align: left;
+	}
+}
+.print-div{
+	display: none;
+}
+.checkbox{vertical-align: middle;opacity: 1!important;}
+

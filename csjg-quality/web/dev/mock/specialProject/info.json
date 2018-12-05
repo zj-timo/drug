@@ -1,0 +1,20 @@
+{
+  "no-mock":true,
+  "code": 200,
+  "message": "请求成功",
+  "result": {
+    "pk": "'111'",
+    "projectNumber": "YPSC20180301001",
+    "disposalLevel": "70",
+    "projectType": "73",
+    "inspectionProject": "机构及制度",
+    "inspectionContent": "是否制定事故应急预案并有演练记录",
+    "inspectionResult": "1",
+    "problemDescription": "符合条件的使用单位未组织应急演练（一年周期类演练一次）",
+    "lawsRegulations": "《特种设备使用管理规则》（TSG 08-2017）",
+    "specificTerms": "第六十九条第三款 特种设备使用单位事故应急",
+    "legalResponsibility": "无责罚",
+    "disposalSuggestions": "在检查记录的处置措施勾选“其他”下达监督意见书",
+    "state": "1"
+  }
+}

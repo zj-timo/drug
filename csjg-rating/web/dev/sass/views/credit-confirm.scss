@@ -1,0 +1,38 @@
+// 信用级别认定管理  信用分级巡查管理  两个页面的详情与编辑页面样式
+.credit-confirm{
+	//二级标题
+	.secend-title{
+		font-weight: bold;
+	}
+	.info-p{
+		margin-left:26px;
+	}
+	//文本框
+	.grade-wrap{
+		margin-left:26px;
+		border: 1px solid red;
+		padding: 10px;
+    	width: 47%;
+    	color: red;
+	}
+	//数值
+	.num-style{
+		font-weight: bold;
+		font-size: 15px;
+		text-decoration: underline;
+	}
+	.level-style{
+		font-weight: bold;
+		font-size: 15px;
+		color: red;
+	}
+	.mr-8{
+		margin-right: 8px;
+	}
+	
+	.textarea{
+		margin-left:26px;
+		width: 50%;
+	}
+}
+

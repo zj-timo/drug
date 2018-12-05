@@ -1,0 +1,97 @@
+
+/*页面样式*/
+.task-manage{
+	.edit-wrap{
+	  margin: 0 auto;
+	  margin-bottom: 30px;
+	  /*display:none;*/
+
+	  .print-p{
+	  	margin-left: 10px;
+	  }
+	  .form-body{
+	    font-family: 宋体;
+			font-size: 12pt;
+		}
+		.form-body table{
+			width: 100%;
+			text-align: center;
+			border: 1px solid #e0e0e0;
+			/*margin-top: 20px;*/
+		}
+		.form-body table td{
+			padding:7px 4px;
+			border: 1px solid #333;
+			line-height: 17.2px;
+		}
+		.form-body table.td-h td{
+			height: 78px;
+		}
+		.form-body h2{
+			font-size: 20.6pt;
+		    font-weight: 600;
+		    text-align: center;
+		    /*margin:25px 0;*/
+		}
+		.min-h-110{min-height: 110px;}
+		.min-h-80{min-height: 80px;}
+		table p{padding:3px 0;}
+		.print-num{text-decoration: underline;}
+	}
+	.grade-wrap {
+    border: 1px solid red;
+    padding: 10px;
+    width: 47%;
+    color: red;
+	}
+	.pl-25{
+		padding-left: 25px;
+	}
+	.num-inp{
+		width: 50px;
+	}
+	.num-sel{
+		width: 100px;
+	}
+	.w-150{
+		width: 150px;
+    transform: translateY(-2px);
+    padding-top: 6px;
+    text-align: right;
+    padding-right: 12px;
+    word-break: break-word;
+    font-size: 12px;
+	}
+	.w-150-info{
+		width: 150px;
+    text-align: right;
+    padding-right: 12px;
+    word-break: break-word;
+    font-size: 12px;
+	}
+	.min-h-50{
+		min-height: 50px;
+	}
+	.ex-res-box{
+		overflow:hidden;
+		.ex-res-item{
+			width: 50%;
+			float: left;
+			padding-right: 50px;
+		}
+		.ex-res-item:nth-child(even){
+			padding-right:0;
+			padding-left:50px;
+		}
+	}
+	.basis-box{
+		border:1px solid red; 
+		color: red;
+		display: inline-block;
+		padding: 10px;
+	}
+	input[disabled]{
+		opacity: 1;
+	}
+}
+

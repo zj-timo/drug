@@ -1,0 +1,55 @@
+{
+  "no-mock":true,
+  "code": 200,
+  "message": "请求成功",
+  "result": {
+    "qualityInspectionFile":[{
+      "createdBy":"11",
+      "createdTime":"2018-05-22",
+      "deleteMark":"",
+      "fileName":"11",
+      "fileUrl":"/img/11.png",
+      "pk":"111",
+      "qualityPk":"",
+      "updateBy":"",
+      "updatedTime":""
+    }],
+    "qualityTask":{
+      "annualPlan":"2018",
+      "creditCode":"110110",
+      "disposalMeasures":"1",
+      "endTime":"2018-10-23",
+      "entourage":"1",
+      "industryArea":"138",
+      "inspectionPlanPk":"111",
+      "inspectionType":"4",
+      "name":"企业名称1",
+      "pk":"00000",
+      "rectificationFile":"/img/22.jpg",
+      "rectificationName":"22",
+      "rectificationResult":"1",
+      "rectificationTime":"2018-06-06",
+      "startTime":"2018-09-20",
+      "state":"1",
+      "enforcementLeader":"test1",
+      "planEndTime":"2019-02-02",
+      "planStartTime":"2019-06-06",
+      "plannedNumber":"2019"
+    },
+    "qualityTaskProblem":[{
+      "disposalLevel":"1",
+      "pk":"111",
+      "problemDescription":"描述问题1111",
+      "remarks":"00",
+      "specificTerms":"条款11",
+      "taskPk":"12"
+    },{
+      "disposalLevel":"2",
+      "pk":"222",
+      "problemDescription":"描述问题222",
+      "remarks":"22222",
+      "specificTerms":"条款33333",
+      "taskPk":"23"
+    }]
+  }
+}

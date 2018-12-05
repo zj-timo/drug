@@ -1,0 +1,9 @@
+{
+  "no-mock":true,
+  "code": 200,
+  "message": "请求成功",
+  "result": [{
+    "id": "test1", 
+    "name": "测试1号"
+  }]
+}

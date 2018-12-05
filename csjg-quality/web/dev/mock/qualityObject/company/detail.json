@@ -1,0 +1,11 @@
+{
+  "no-mock":true,
+  "message":"获取记录成功",
+  "result":{"creditCode":"91320583738251922N",
+  "name":"昆山市明峰园林景观绿化工程有限公司",
+  "industryArea":"132","state":"",
+  "annualPlan":"",
+  "supervisionMode":"",
+  "enforcementLeader":""},
+  "code":200
+}

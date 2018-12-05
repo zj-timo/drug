@@ -1,0 +1,135 @@
+%user-select-none {
+    @include vendor(user-select,none)
+}
+%touch-action-manipulation {
+    @include vendor(touch-action,manipulation)
+}
+
+%btn-disabled {
+    opacity: .3;
+    cursor: not-allowed;
+}
+   
+.btn {
+    @extend %user-select-none;
+    @extend %touch-action-manipulation;
+  display: inline-block;
+    zoom: 1;
+    line-height: normal;
+    white-space: nowrap;
+    // vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    box-sizing: content-box;
+  width: auto;
+    border:0;
+    *border: 0 none;
+    outline: none;
+}
+
+.btn-primary {
+    font-size: 13px;
+    line-height: 24px;
+    height: 24px;
+    padding: 0 15px;
+    color: #155eaa;
+    border: 1px solid #155eaa;
+    background: #fff;
+}
+
+.btn-info {
+    font-size: 14px;
+    line-height: 33px;
+    height: 33px;
+    padding: 0 15px;
+    color: #fff;
+    border: 1px solid #ff696a;
+    background: #ff696a;
+
+    &:hover {
+       background: #fa4b4d;
+    }
+}
+
+.btn-save{
+  font-size: 14px;
+  line-height: 35px;
+  height: 35px;
+  padding: 0 20px;
+  color: #fff;
+  border: 1px solid #f89c0b;
+  background: #f89c0b;
+  border-radius: 3px;
+  min-width: 48px;
+
+  &:hover{
+    border: 1px solid #ffc540;
+    background: #ffc540;
+  }
+}
+
+.btn-back {
+  height: 35px;
+  line-height: 35px;
+  padding: 0 20px;
+  color: #666;
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+  font-size: 14px;
+  border-radius: 3px;
+  min-width: 48px;
+
+  &:hover{
+    border: 1px solid #f89c0b;
+  }
+}
+
+.btn-gray{
+  font-size: 12px;
+  line-height: 30px;
+  height: 30px;
+  padding: 0 17px;
+  border: 1px solid #ccc;
+  background: #ededed;
+  border-radius: 5px;
+  min-width: 48px;
+  &:hover{
+    background: #fff;
+  }
+}
+
+.btn-download {
+  display: inline-block;
+  padding: 0 10px;
+  border-radius: 3px;
+  border: 1px solid #2d86ca;
+  height: 26px;
+  line-height: 26px;
+  font-size: 12px;
+  color: #333;
+  text-align: center;
+  background: #fff;
+
+  .icon {
+    color: #2d86ca;
+    padding-right: 2px;
+  }
+}
+.btn-leading-in {
+  font-size: 12px;
+  line-height: 27px;
+  height: 28px;
+  border: 1px solid #2d86ca;
+  background: #fff;
+  border-radius: 3px;
+  width: 87px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+
+  .icon {
+    color: #2d86ca;
+    padding-right: 2px;
+  }
+}

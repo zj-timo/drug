@@ -1,0 +1,93 @@
+// General view styling.
+// @author Alejandro Mostajo <http://about.me/amostajo>
+// @copyright 10Quality <http://www.10quality.com>
+// @license MIT
+// @version 1.0.0
+
+.treeview
+{
+    position: relative;
+    white-space: nowrap;
+    // height: 140px;
+
+    &.inner
+    {
+        border: none;
+        height: auto;
+        max-height: none;
+    }
+
+    .node
+    {
+        display: inline-block;
+    }
+
+    .children
+    {
+        // overflow: hidden;
+
+        .margin
+        {
+            display: inline-block;
+            width: 20px;
+        }
+
+        .nodes
+        {
+            display: inline-block;
+        }
+    }
+
+    span.icon
+    {
+        width: 20px;
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+//变色
+.treeview-custom {
+    max-height: 390px;
+    overflow: auto;
+  // background-color: #ECEFF1;
+}
+
+.treeview-custom .icon.node-parent .fill
+{
+  fill: #607D8B;
+}
+
+.treeview-custom .icon.node-parent-toggled .front
+{
+  fill: #546E7A;
+}
+
+.treeview-custom .icon.node-parent-toggled .back
+{
+  stroke: #546E7A;
+  fill: #f6dc7b;
+}
+
+.treeview-custom .icon.node circle
+{
+  stroke: #e9af00;
+  fill: #f6dc7b;
+}
+
+.treeview-custom  label {
+    font-weight: normal;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+// .treeview-custom .node.active label {
+//     font-weight: bold;
+// }
+
+.treeview-custom .node.active {
+    background-color: $c-hover;
+    color: $c-white;
+    padding: 0 5px;
+    margin: 2px 0;
+}

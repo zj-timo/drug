@@ -1,0 +1,6 @@
+{
+  "no-mock":true,
+  "code": 200,
+  "message": "请求成功",
+  "result": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJ0ZXN0MSIsInR5cGUiOiJ0b2tlbiIsImlhdCI6MTUxNTk3NjY3NDUyNn0.sty-HJXeDDHicsyfRQrNciFjvPlXexTmt8qSew9aPzM"
+}
